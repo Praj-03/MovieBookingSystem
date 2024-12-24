@@ -49,3 +49,14 @@ p
 {
   margin-top:90px;
 }
+button
+{
+    margin-top: 20px;
+    margin-left: 200px;
+    color:white;
+    background-color:#ed100cfe;
+    border-radius: 5px;
+    padding: 10px 30px; 
+    cursor: pointer;
+    font-size: 15px;
+}

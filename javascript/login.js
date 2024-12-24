@@ -37,7 +37,7 @@ form.addEventListener('submit' , (e) =>
         } else {
             // Redirect to login page after successful sign-up
             alert('login succesfully')
-            window.location.href = 'home.html'; 
+            window.location.href = 'index.html'; 
             e.preventDefault();  
         }
 });

@@ -59,7 +59,7 @@ updateSelectedCount();
     if(selectedSeats.length>0)
     {
         alert("Booking Successfully....");
-        window.location.href='home.html'
+        window.location.href='index.html'
     }
     else
     {
