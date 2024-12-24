@@ -1,0 +1,158 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    background-image:url('../images/signup.jpg');
+    height:750px;
+    box-sizing: border-box;
+    border-radius: 0 20px 20px 0;
+    
+}
+.d1
+{
+    border: 5px solid black;
+    
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    text-align: center;
+   
+    
+}
+ form{
+    justify-content: center;
+    text-align: center;
+    margin-top: -160px; 
+    width: min(1550px,100%); 
+    margin-bottom:50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+h1{
+    color:rgb(22, 3, 3);
+    text-align: center;
+    padding: 170px;
+    font-size:3rem;
+    text-transform:uppercase;
+} 
+form input
+{
+  box-sizing: border-box;
+  flex-grow:1;
+  min-width:0;
+  height: 50px;
+  padding:1em;
+  font:inherit;
+  border-radius:0 10px 10px 0;
+  border:2px solid var(--input-color);
+  background-color: var(--input-color);
+  transition:150ms ease;
+}
+ form input:hover
+ {
+    border-color:var(--accent-color);
+ }
+ 
+ form input::placeholder
+ {
+    color:var(--accent-color);
+ }
+ form button
+ {
+    margin-top:10px;
+    border: none;
+    border-radius:1000px;
+    padding:.85em 4em;
+    /* background-color: var(--accent-color); */
+    color: var(--base-color);
+    font: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+ }
+ a
+ {
+    text-decoration: none;
+    color: blue;
+   
+ }
+ a:hover
+ {
+    text-decoration: underline;
+ }
+ 
+#firstname
+{
+    width: 190px;
+    height:40px ;
+    border-radius:8px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(219, 212, 212, 0.651);
+    margin-bottom:0px;
+    color: black;
+}
+
+#email
+{
+    width: 190px;
+    height:40px ;
+    border-radius:8px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 25px;
+    background-color: rgba(219, 212, 212, 0.651);
+    margin-bottom: 0px;
+}
+#password
+{
+    width: 190px;
+    height:40px ;
+    border-radius:8px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(219, 212, 212, 0.651);
+    margin-bottom: 0px;
+}
+#confirmpassword
+{
+    width: 190px;
+    height:40px ;
+    border-radius:8px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(219, 212, 212, 0.651);
+}
+button
+{
+    margin: 20px;
+ border-radius:10px;
+    margin-left: 0px;
+    background-color:rgb(73, 73, 238);
+    color: white;
+    padding: 15px 35px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    box-shadow:2px 2px 2px rgb(206, 175, 175);
+}
+button:hover
+{
+    background-color:rgb(61, 61, 193)
+}
+p
+{
+    color: white;
+}
+  

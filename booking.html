@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/booking.css">
+    <title>booking</title>
+    <!-- <script src="../javascript/booking.js"></script> -->
+</head>
+<body>
+    <div class="movie-container">
+        <label> Select a movie:</label>
+        <select id="movie">
+            <option value="220">bhola Rs.220</option>
+            <option value="320">kalki Rs.320</option>
+            <option value="250">Animal Rs.250</option>
+            <option value="260">bhootpolice Rs.260</option>
+            <option value="260">kahani Rs.260</option>
+
+        </select>
+    </div>
+    <ul class="showcase">
+        <li>
+        <div class="seat"></div>
+            <small>Available</small>
+            
+      </li>
+          <li>
+            <div class="seat selected"></div>
+                <small>Selected</small>
+          </li>
+          <li>
+          <div class="seat sold"></div>
+          <small>Sold</small>
+          </li>
+    </ul>
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+    <p class="text">
+        You have selcted <span id="count"> 0</span> seat for a price of RS<span id="total"> 0</span>
+    </p>
+    <button type="button" class="btn" id="Bookbutton">book Now</button>
+    <script src="../javascript/booking.js"></script>
+</body>
+</html>

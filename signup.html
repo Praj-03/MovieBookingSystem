@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/signup.css">
+    <script src="../javascript/signup.js" defer ></script>
+    <title>signup</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <h1>Signup</h1>
+        <p id="errorsmessage"></p>
+        <form id="form">
+
+           <div class="incorrect"><label for="firstname">
+            <i class="fa-regular fa-address-book" style="font-size:25px;"></i>
+            </label>
+            <input type="text" name=" name" id="firstname" placeholder="Enter Name"><br>
+            <span id="firstnameerror" style="color:red"></span>
+           </div> 
+ 
+           <div><label for="email">
+            <i class="fa-solid fa-envelope"></i>
+            </label>
+            <input type="Email" name="email" id="email" placeholder="Email"><br>
+            <span id="emailerror" style="color:red"></span>
+           </div> 
+
+           <div><label for="password">
+            <i class="fa-solid fa-lock"></i>
+            </label>
+            <input type="password" name="password" id="password" placeholder="password"><br>
+            <span id="passworderror" style="color:red"></span>
+           </div> 
+
+           <div><label for="confirmpassword">
+            <i class="fa-solid fa-lock-open"></i>
+            </label>
+            <input type="password" name=" confirmpassword" id="confirmpassword" placeholder=" confirm password"><br>
+            <span id="confirmpassworderror" style="color:red"></span>
+           </div> 
+
+           <button type="submit">Signup</button>
+        
+        <p>Already have an Account?<a href="login.html">  Login</a></p>
+        </form>
+        </div>
+    
+</body>
+</html>
